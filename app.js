@@ -71,6 +71,8 @@ app.use('/',answerRoute)
 
 app.use(express.static('public/css/'));//accessing css file at public
 
-app.listen(PORT,(req,res)=>{
-    console.log("Server Started my friend!")
-})
+// app.listen(PORT,(req,res)=>{
+//     console.log("Server Started my friend!")
+// })
+
+module.exports = app
